@@ -13,19 +13,22 @@ code {
 }
 
 .sidebar-top {
-  padding: 70px;
-  text-align: center !important;
+  padding: 5px;
+  text-align: center;
 }
 
 #image {
-  border-radius:50px;
+  border-radius:1000px;
 }
-
+.wrapper {
+  max-width:1170px;
+  margin-left: 250px;
+}
 /* The side navigation menu */
 .sidebar {
  margin: 0;
  padding: 0;
- width: 250px;
+ width: 300px;
  background-color: #f1f1f1;
  position: fixed;
  height: 100%;
@@ -38,12 +41,12 @@ code {
  color: black;
  padding: 16px;
  text-decoration: none;
+ text-align: center;
 }
 
 /* Active/current link */
 .sidebar a.active {
- background-color: white;
- color: Gray;
+ color: gray;
 }
 
 /* Links on mouse-over */

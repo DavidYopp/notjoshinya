@@ -21,7 +21,12 @@ test('Sidebar component contains sidebar nav element', () => {
   expect(topcomponent).toBeInTheDocument();
 });
 
-test('Sidebar component contains sidebar nav element', () => {
+test('Sidebar component contains 4 navigation elements', () => {
   const links = document.getElementsByTagName('a');
   expect(links.length).toBe(4);
+});
+
+test('Sidebar component contains image', () => {
+  const image = document.getElementById('image');
+  expect(image).toBeInTheDocument();
 });
